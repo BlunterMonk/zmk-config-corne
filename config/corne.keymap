@@ -140,10 +140,19 @@
 
         gaming_layer {
             bindings = <
-&kp ESCAPE      &kp T           &kp Q  &kp W             &kp E         &kp R        &trans           &trans         &trans     &trans  &trans  &trans
-&kp TAB         &kp G           &kp A  &kp S             &kp D         &kp F        &trans           &trans         &trans     &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp LEFT_SHIFT  &kp Z  &kp X             &kp C         &kp V        &trans           &trans         &trans     &trans  &trans  &trans
-                                       &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE    &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp RCTRL
+&kp ESCAPE      &kp T           &kp Q  &kp W         &kp E  &kp R        &trans           &trans  &trans         &trans  &trans  &trans
+&kp TAB         &kp G           &kp A  &kp S         &kp D  &kp F        &trans           &trans  &trans         &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp LEFT_SHIFT  &kp Z  &kp X         &kp C  &kp V        &trans           &trans  &trans         &trans  &trans  &trans
+                                       &kp LEFT_ALT  &mo 4  &kp SPACE    &kp RIGHT_SHIFT  &mo 4   &kp RIGHT_ALT
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
