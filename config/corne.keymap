@@ -149,10 +149,10 @@
 
         starcitizen {
             bindings = <
-&kp Y   &kp N1  &kp N2  &kp N3  &kp N4  &kp N5       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &kp LA(H)    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans       &trans  &trans  &trans
+&kp Y   &kp N1  &kp N2  &kp N3  &kp N4         &kp N5            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans         &kp LA(H)         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp LA(COMMA)  &kp RA(PERIOD)    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans         &trans            &trans  &trans  &trans
             >;
         };
     };
