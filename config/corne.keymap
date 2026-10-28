@@ -150,10 +150,10 @@
 
         starcitizen {
             bindings = <
-&kp Y   &kp N1  &kp N2  &trans  &kp NUMBER_3   &kp NUMBER_4      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans         &kp LA(H)         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &kp LA(COMMA)  &kp RA(PERIOD)    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans         &trans            &trans  &trans  &trans
+&kp Y   &kp N1  &kp N2  &trans  &kp NUMBER_3  &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans        &trans          &trans  &trans  &trans
             >;
         };
 
@@ -177,10 +177,10 @@
 
         leaguetwo {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_5  &kp NUMBER_6  &kp N7        &kp NUMBER_8  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                    &trans        &trans        &trans    &trans  &trans  &trans
             >;
         };
     };
